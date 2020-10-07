@@ -45,10 +45,10 @@
             var lat = position.coords.latitude;
             var lng = position.coords.longitude;
             //div에 지도 표시하기
-            displayKakaoMap(lat,lng);
+            displayKaKaoMap(lat,lng);
         }
         //지도 표시 함수]
-        function displayKakaoMap(lat,lng){
+        function displayKaKaoMap(lat,lng){
             var container = document.getElementById('map'); // 지도를 표시할 div 
             var option = { 
                     center: new kakao.maps.LatLng(lat,lng), // 지도의 중심좌표
